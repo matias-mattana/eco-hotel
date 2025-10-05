@@ -48,7 +48,7 @@ document.getElementById("formReserva").addEventListener("submit", (e) => {
   document.getElementById("resultado").innerHTML = resumen;
 
   Swal.fire({
-    title: "Reserva simulada con éxito ✅",
+    title: "Reserva simulada con éxito ",
     html: resumen,
     icon: "success"
   });
