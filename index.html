@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script  defer src="script.js"></script>
+</head>
+<body>
+     <header>
+    <h1>Eco Hotel 🌿</h1>
+    <p>Simulador de reservas online</p>
+  </header>
+  <main>
+    <section id="reservas">
+      <h2>Realizá tu reserva</h2>
+      <form id="formReserva">
+        <label>Nombre:</label>
+        <input type="text" id="nombre" required placeholder="Tu nombre" />
+
+        <label>Fecha de ingreso:</label>
+        <input type="date" id="checkin" required />
+
+        <label>Fecha de salida:</label>
+        <input type="date" id="checkout" required />
+
+        <label>Tipo de habitación:</label>
+        <select id="tipoHabitacion"></select>
+
+        <label>Cantidad de personas:</label>
+        <input type="number" id="personas" min="1" value="1" />
+
+        <button type="submit">Calcular total</button>
+      </form>
+
+      <div id="resultado"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Eco Hotel | Proyecto Final JavaScript</p>
+  </footer>
+</body>
+</html>

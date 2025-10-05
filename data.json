@@ -1,0 +1,7 @@
+{
+  "habitaciones": [
+    { "tipo": "Estándar", "precio": 15000 },
+    { "tipo": "Premium", "precio": 25000 },
+    { "tipo": "Suite", "precio": 40000 }
+  ]
+}
